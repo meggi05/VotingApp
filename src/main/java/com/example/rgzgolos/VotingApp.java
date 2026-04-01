@@ -196,7 +196,7 @@ public class VotingApp extends Application {
             placeholderText.setTextAlignment(TextAlignment.CENTER);
             placeholderText.setTextFill(Color.WHITE);
             StackPane placeholderPane = new StackPane(placeholderRect, placeholderText);
-            placeholderPane.setOnMouseClicked(_ -> showFlowerDetails(flower, ownerStage));
+            placeholderPane.setOnMouseClicked(event -> showFlowerDetails(flower, ownerStage));
             imageNode = placeholderPane;
         }
         card.getChildren().add(imageNode);
