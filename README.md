@@ -57,7 +57,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 1. Clone the repository:
    ```bash
    git clone https://github.com/meggi05/VotingApp.git
-   cd VotingApp```
+   cd VotingApp
+   ```
    
 2. Open project in IntelliJ IDEA:
    - Launch IntelliJ IDEA
