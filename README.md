@@ -25,6 +25,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Project Structure
 ```
+.
+├── LICENSE
 ├── pom.xml
 ├── .gitignore
 ├── README.md
@@ -55,22 +57,19 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 1. Clone the repository:
    ```bash
    git clone https://github.com/meggi05/VotingApp.git
-   cd VotingApp
-   ```
+   cd VotingApp```
+   
 2. Open project in IntelliJ IDEA:
-
-Launch IntelliJ IDEA
-
-File → Open → select the VotingApp folder
-
-Wait for Maven dependencies to resolve automatically
+   - Launch IntelliJ IDEA
+   - File → Open → select the VotingApp folder
+   - Wait for Maven dependencies to resolve automatically
 
 3. Run the application:
-   - Navigate to `src/main/java/com/example/rgzgolos/VotingApp.java`
-   - Find the `main` method
-   - Click the green play button next to it
-   - Select "Run 'VotingApp.main()'"
+   - Via Maven panel (recommended)
+   - Open the Maven tab on the right side
+   - Navigate to: Lifecycle → double-click clean
+   - Then: Plugins → javafx → double-click javafx:run
 
 
-Author
+## Author
 @meggi05 — Student at Novosibirsk State Technical University (NSTU)
