@@ -18,6 +18,10 @@ Desktop application built with JavaFX for conducting student votes on the best u
 - JavaFX 17.0.6
 - Maven
 - IntelliJ IDEA
+  
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Project Structure
 ```
@@ -66,6 +70,7 @@ Wait for Maven dependencies to resolve automatically
    - Find the `main` method
    - Click the green play button next to it
    - Select "Run 'VotingApp.main()'"
+
 
 Author
 @meggi05 — Student at Novosibirsk State Technical University (NSTU)
